@@ -3,52 +3,52 @@ import { Separator } from "../../../../components/ui/separator";
 
 const teamMembers = [
   {
-    name: "Drs. H. Srikaton",
-    title: "Direktur LPK IGWI",
+    name: "Prof. Dr. Hj. Indrarini Dyah Irawati, S.T., M.T.",
+    title: "Pembina Yayasan",
     picture: "/picture.png",
     socialIcon: "/social-icon.png",
     description:
-      "Berpengalaman lebih dari 20 tahun dalam manajemen lembaga pelatihan dan hubungan kerja sama internasional.",
+      "Guru Besar yang membimbing arah strategis yayasan dalam memajukan kualitas sumber daya manusia Indonesia.",
   },
   {
-    name: "Siti Masitoh, M.Pd.",
-    title: "Kepala Bidang Akademik",
+    name: "Eman, S.E., Ak., M.M.Pd.",
+    title: "Pengawas Lembaga",
     picture: "/picture-1.png",
     socialIcon: "/social-icon-1.png",
     description:
-      "Ahli dalam pengembangan kurikulum berbasis kompetensi dan metodologi pengajaran bahasa asing yang efektif.",
+      "Mengawasi jalannya lembaga agar tetap sesuai dengan standar pendidikan dan manajemen yang akuntabel.",
   },
   {
-    name: "Kenji Tanaka (Sensei)",
-    title: "Instruktur Bahasa Jepang",
-    picture: "/picture-2.png",
-    socialIcon: "/social-icon-2.png",
-    description:
-      "Native speaker dengan sertifikasi pengajaran bahasa Jepang. Spesialis persiapan JLPT N5 hingga N3.",
-  },
-  {
-    name: "Hans Mueller (Lehrer)",
-    title: "Instruktur Bahasa Jerman",
-    picture: "/picture-3.png",
-    socialIcon: "/social-icon-3.png",
-    description:
-      "Pakar bahasa Jerman dengan fokus pada penguasaan kosakata teknis untuk program Ausbildung di Jerman.",
-  },
-  {
-    name: "Ir. Bambang Wijaya",
-    title: "Instruktur Teknis (Manufaktur)",
+    name: "Drs. Dahyar, M.M.",
+    title: "Direktur Lembaga",
     picture: "/picture-4.png",
     socialIcon: "/social-icon-4.png",
     description:
-      "Praktisi industri manufaktur yang membidangi pelatihan keterampilan teknis dan keselamatan kerja standar global.",
+      "Memimpin operasional LPK IGWI dengan pengalaman manajerial luas di bidang pengembangan kompetensi.",
   },
   {
-    name: "Dr. Maria Oh (Seonsaengnim)",
-    title: "Instruktur Bahasa & Budaya Korea",
+    name: "Tricka Puspita, S.Pd.",
+    title: "Instruktur",
     picture: "/picture-5.png",
     socialIcon: "/social-icon-5.png",
     description:
-      "Spesialis pembinaan budaya kerja Korea dan persiapan tes TOPIK bagi calon tenaga kerja profesional.",
+      "Pakar pendidikan yang berdedikasi dalam membimbing peserta didik mencapai kompetensi bahasa dan teknis.",
+  },
+  {
+    name: "Daud Ridwan",
+    title: "Instruktur",
+    picture: "/picture-2.png",
+    socialIcon: "/social-icon-2.png",
+    description:
+      "Instruktur berpengalaman yang fokus pada pembinaan karakter dan keterampilan praktis peserta pelatihan.",
+  },
+  {
+    name: "Agung Gunawan & Zulpikar Sandira",
+    title: "Tim IT",
+    picture: "/picture-3.png",
+    socialIcon: "/social-icon-3.png",
+    description:
+      "Mengelola infrastruktur digital dan sistem informasi untuk mendukung efisiensi operasional lembaga.",
   },
 ];
 

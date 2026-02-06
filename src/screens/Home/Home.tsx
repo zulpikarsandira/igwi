@@ -9,47 +9,46 @@ import { HeroSection } from "./sections/HeroSection";
 import { MarketingServicesSection } from "./sections/MarketingServicesSection";
 import { TeamMembersSection } from "./sections/TeamMembersSection";
 import { WorkflowProcessSection } from "./sections/WorkflowProcessSection/WorkflowProcessSection";
+import { ProfileSection } from "./sections/ProfileSection/ProfileSection";
+import { ValuesSection } from "./sections/ValuesSection/ValuesSection";
 
 import { motion } from "framer-motion";
 
 const sectionHeaders = [
   {
+    badge: "Tentang Kami",
+    description: "Kenali lebih dalam LPK Indonesia Global Workforce Institute (IGWI).",
+  },
+  {
     badge: "Layanan",
     description: "Program Pelatihan Unggulan LPK IGWI",
-    descriptionWidth: "w-[580px]",
   },
   {
     badge: "Case Studies",
     description: "Jejak Langkah Keberhasilan Alumni LPK IGWI",
-    descriptionWidth: "w-[580px]",
   },
   {
     badge: "Langkah Pelatihan",
     description: "Sistem Pelatihan Terstruktur LPK IGWI",
-    descriptionWidth: "w-[400px]",
   },
   {
     badge: "Team",
     description: "Tim Pengajar & Manajemen yang Profesional dan Berpengalaman",
-    descriptionWidth: "w-[473px]",
   },
   {
     badge: "Testimonials",
     description: "Apa Kata Alumni & Mitra Kami Tentang Kualitas LPK IGWI?",
-    descriptionWidth: "w-[473px]",
   },
   {
     badge: "Contact Us",
     description: "Konsultasikan impian kerja luar negeri Anda. Tim kami akan segera menghubungi Anda.",
-    descriptionWidth: "w-[400px]",
   },
 ];
 
 const SectionHeader = ({
   badge,
   description,
-  descriptionWidth,
-}: { badge: string; description: string; descriptionWidth: string }) => (
+}: { badge: string; description: string }) => (
   <motion.header
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -61,7 +60,7 @@ const SectionHeader = ({
       {badge}
     </Badge>
     <p
-      className={`w-full md:${descriptionWidth} font-p font-[number:var(--p-font-weight)] text-[#000000] text-[length:var(--p-size)] tracking-[var(--p-letter-spacing)] leading-[var(--p-line-height)] [font-style:var(--p-font-style)]`}
+      className={`w-full md:max-w-[600px] font-p font-[number:var(--p-font-weight)] text-[#000000] text-[length:var(--p-size)] tracking-[var(--p-letter-spacing)] leading-[var(--p-line-height)] [font-style:var(--p-font-style)]`}
     >
       {description}
     </p>
@@ -73,11 +72,20 @@ export const Home = (): JSX.Element => {
     <div className="bg-white overflow-x-hidden w-full flex flex-col">
       <HeroSection />
 
-      <div className="mt-20 md:mt-28 lg:mt-[140px]">
+      <div id="about" className="mt-20 md:mt-28 lg:mt-[140px]">
         <SectionHeader
           badge={sectionHeaders[0].badge}
           description={sectionHeaders[0].description}
-          descriptionWidth={sectionHeaders[0].descriptionWidth}
+        />
+      </div>
+
+      <ProfileSection />
+      <ValuesSection />
+
+      <div id="services" className="mt-20 md:mt-28 lg:mt-[140px]">
+        <SectionHeader
+          badge={sectionHeaders[1].badge}
+          description={sectionHeaders[1].description}
         />
       </div>
 
@@ -87,29 +95,26 @@ export const Home = (): JSX.Element => {
 
       <div className="mt-20 md:mt-28 lg:mt-[140px]">
         <SectionHeader
-          badge={sectionHeaders[1].badge}
-          description={sectionHeaders[1].description}
-          descriptionWidth={sectionHeaders[1].descriptionWidth}
+          badge={sectionHeaders[2].badge}
+          description={sectionHeaders[2].description}
         />
       </div>
 
       <CaseStudiesSection />
 
-      <div className="mt-20 md:mt-28 lg:mt-[140px]">
+      <div id="process" className="mt-20 md:mt-28 lg:mt-[140px]">
         <SectionHeader
-          badge={sectionHeaders[2].badge}
-          description={sectionHeaders[2].description}
-          descriptionWidth={sectionHeaders[2].descriptionWidth}
+          badge={sectionHeaders[3].badge}
+          description={sectionHeaders[3].description}
         />
       </div>
 
       <WorkflowProcessSection />
 
-      <div className="mt-20 md:mt-28 lg:mt-[140px]">
+      <div id="team" className="mt-20 md:mt-28 lg:mt-[140px]">
         <SectionHeader
-          badge={sectionHeaders[3].badge}
-          description={sectionHeaders[3].description}
-          descriptionWidth={sectionHeaders[3].descriptionWidth}
+          badge={sectionHeaders[4].badge}
+          description={sectionHeaders[4].description}
         />
       </div>
 
@@ -121,21 +126,19 @@ export const Home = (): JSX.Element => {
         </Button>
       </div>
 
-      <div className="mt-16 md:mt-20 lg:mt-[100px]">
+      <div id="testimonials" className="mt-16 md:mt-20 lg:mt-[100px]">
         <SectionHeader
-          badge={sectionHeaders[4].badge}
-          description={sectionHeaders[4].description}
-          descriptionWidth={sectionHeaders[4].descriptionWidth}
+          badge={sectionHeaders[5].badge}
+          description={sectionHeaders[5].description}
         />
       </div>
 
       <ClientTestimonialsSection />
 
-      <div className="mt-20 md:mt-28 lg:mt-[140px]">
+      <div id="contact" className="mt-20 md:mt-28 lg:mt-[140px]">
         <SectionHeader
-          badge={sectionHeaders[5].badge}
-          description={sectionHeaders[5].description}
-          descriptionWidth={sectionHeaders[5].descriptionWidth}
+          badge={sectionHeaders[6].badge}
+          description={sectionHeaders[6].description}
         />
       </div>
 

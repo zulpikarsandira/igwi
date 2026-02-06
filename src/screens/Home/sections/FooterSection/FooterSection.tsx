@@ -92,7 +92,7 @@ export const FooterSection = (): JSX.Element => {
 
           <div className="flex flex-col md:flex-row items-center gap-5 md:gap-10">
             <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-white text-sm md:text-base tracking-[0] leading-7 text-center md:text-left">
-              © 2024 LPK Srikaton Indonesia Global Workforce Institute.
+              © 2024 LPK Indonesia Global Workforce Institute (IGWI).
             </p>
 
             <a
