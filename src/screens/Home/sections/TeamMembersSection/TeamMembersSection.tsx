@@ -11,10 +11,18 @@ const teamMembers = [
       "Guru Besar yang membimbing arah strategis yayasan dalam memajukan kualitas sumber daya manusia Indonesia.",
   },
   {
-    name: "Eman, S.E., Ak., M.M.Pd.",
-    title: "Pengawas Lembaga",
+    name: "Ratno Suliantoro, S.T., M.M.",
+    title: "Pengawas Yayasan",
     picture: "/picture-1.png",
     socialIcon: "/social-icon-1.png",
+    description:
+      "Bertanggung jawab dalam pengawasan tata kelola dan keberlanjutan yayasan secara strategis.",
+  },
+  {
+    name: "Eman, S.E., Ak., M.M.Pd.",
+    title: "Pengawas Lembaga",
+    picture: "/picture-2.png",
+    socialIcon: "/social-icon-2.png",
     description:
       "Mengawasi jalannya lembaga agar tetap sesuai dengan standar pendidikan dan manajemen yang akuntabel.",
   },
@@ -37,18 +45,42 @@ const teamMembers = [
   {
     name: "Daud Ridwan",
     title: "Instruktur",
-    picture: "/picture-2.png",
-    socialIcon: "/social-icon-2.png",
+    picture: "/picture-1.png",
+    socialIcon: "/social-icon-1.png",
     description:
       "Instruktur berpengalaman yang fokus pada pembinaan karakter dan keterampilan praktis peserta pelatihan.",
   },
   {
-    name: "Agung Gunawan & Zulpikar Sandira",
+    name: "Aldi Anugrah, S.Kep., Ners.",
+    title: "Instruktur",
+    picture: "/picture-2.png",
+    socialIcon: "/social-icon-2.png",
+    description:
+      "Tenaga ahli kesehatan yang membimbing peserta dalam kompetensi keperawatan dan pelayanan medis.",
+  },
+  {
+    name: "Jajang Nurjaman, S.T., M. T.",
+    title: "Instruktur",
+    picture: "/picture-5.png",
+    socialIcon: "/social-icon-5.png",
+    description:
+      "Ahli teknologi yang berpengalaman dalam mentransfer keahlian teknis kepada para peserta didik.",
+  },
+  {
+    name: "Agung Gunawan",
     title: "Tim IT",
     picture: "/picture-3.png",
     socialIcon: "/social-icon-3.png",
     description:
-      "Mengelola infrastruktur digital dan sistem informasi untuk mendukung efisiensi operasional lembaga.",
+      "Mengelola infrastruktur digital dan memastikan ketersediaan sistem informasi yang handal bagi lembaga.",
+  },
+  {
+    name: "Zulpikar Sandira",
+    title: "Tim IT",
+    picture: "/picture-3.png",
+    socialIcon: "/social-icon-3.png",
+    description:
+      "Mendukung pengembangan platform digital dan pemeliharaan teknis sistem operasional LPK IGWI.",
   },
 ];
 
